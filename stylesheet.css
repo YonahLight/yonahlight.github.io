@@ -85,106 +85,111 @@
 
 
 
-    .tag-content {width: 25%;
-  height: auto;
-  border: 0.25px gray solid;
-  box-shadow: 2px 2px 2px #aaaaaa;
-  margin: 2em 2em;
-  border-radius: 2% 2%;
-  background-color: #AAC5C8;
-  /* test below */
-  display: flex;
-  flex-direction: column;}
+      .tag-content {width: 25%;
+    height: auto;
+    border: 0.25px gray solid;
+    box-shadow: 2px 2px 2px #aaaaaa;
+    margin: 2em 2em;
+    border-radius: 2% 2%;
+    background-color: #AAC5C8;
+    /* test below */
+    display: flex;
+    flex-direction: column;}
 
 
-  .tag-content img {width: 100%;
-  height: auto;
-  border-top-left-radius: 2%;
-  border-top-right-radius: 2%;
-  }
+    .tag-content img {width: 100%;
+    height: auto;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+    }
 
-  .tags-boxes {display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  width: 80%;
-  margin: auto;
+    .tags-boxes {display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
 
-  }
+    }
 
-  .tags-text {display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-left: 1em;
-  align-items: center;
-  height: 6em;
-  padding: 1.5em 1em;
-  width: 90%}
+    .tags-text {display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 1em;
+    align-items: center;
+    height: 6em;
+    padding: 1.5em 1em;
+    width: 90%}
 
-  .tag-archive {font-weight: 100;}
+    .tag-archive {font-weight: 100;}
 
 
-  .tags-text a {text-decoration: none;
-  color: black;}
+    .tags-text a {text-decoration: none;
+    color: black;}
 
-  .tag-archive:hover {
-  color: gray;}
+    .tag-archive:hover {
+    color: gray;}
 
-  .tags-text a:hover:last-child {color: rgb(24, 212, 188);}
+    .tags-text a:hover:last-child {color: rgb(24, 212, 188);}
 
-  .tag-footer {display: flex;
-  align-items: center;
-  font-size: 1em;
-  border-top: solid 0.5px gray;
-  height: 3.5em;}
+    .tag-footer {display: flex;
+    align-items: center;
+    font-size: 1em;
+    border-top: solid 0.5px gray;
+    height: 3.5em;}
 
-  .tag-footer .name {flex-grow: 1;
-  padding-left: 1em;
-  font-weight: 100;
-  }
+    .tag-footer .name {flex-grow: 1;
+    padding-left: 1em;
+    font-weight: 100;
+    }
 
-  .tag-footer .date {padding-right: 1em;
-  font-weight: 100;}
+    .tag-footer .date {padding-right: 1em;
+    font-weight: 100;}
 
-  .test img {height: 100%;
-  max-width: 100%;}
+    .test img {height: 100%;
+    max-width: 100%;}
 
-  .test:hover {opacity: 0.8;}
-  
-  @media only screen and (max-width: 600px) {.tags-boxes {display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;}
+    .test:hover {opacity: 0.8;}
+    /* Media queries */
+    /* Media queries */
+    /* Media queries */
+    /* Media queries */
 
-  .tag-content {width: 100%;
-  height: 100%;}
-  }
+    /* Media query mobile */
+    @media only screen and (max-width: 600px) {.tags-boxes {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;}
 
-  @media only screen and (min-width: 600px) {.tags-boxes {display: flex;}
+    .tag-content {width: 100%;
+    height: 100%;}
+    }
 
-  .tag-content {width: 35%;
-  height: auto;}
+    @media only screen and (min-width: 600px) {.tags-boxes {display: flex;}
 
-  .tags-text {font-size: 0.5em;}
+    .tag-content {width: 35%;
+    height: auto;}
 
-  .tag-footer {font-size: 0.75em;}
-  }
+    .tags-text {font-size: 0.5em;}
 
-  @media only screen and (min-width: 768px) {.tags-text {font-size: 0.75em;}
-  }
+    .tag-footer {font-size: 0.75em;}
+    }
 
-  @media only screen and (min-width: 990px) {.tags-boxes {display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  width: 80%;
-  margin: auto;
-  }
+    @media only screen and (min-width: 768px) {.tags-text {font-size: 0.75em;}
+    }
 
-  .tag-content {width: 25%;}
-  }
+    @media only screen and (min-width: 990px) {.tags-boxes {display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    }
 
-  @media only screen and (min-width: 1200px) {.tags-text {font-size: 1em;}}
+    .tag-content {width: 25%;}
+    }
+
+    @media only screen and (min-width: 1200px) {.tags-text {font-size: 1em;}}
 
 
 </style>
