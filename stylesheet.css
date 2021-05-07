@@ -15,6 +15,12 @@ h2 {
     margin: 0px;
     font-family: georgia;
 }
+
+h3 {
+  width: 80%;
+  height: auto;
+  margin: auto;
+}
 /*Toolbar START*/
 .topnav {
     display: flex;
@@ -218,6 +224,87 @@ h2 {
 @media only screen and (min-width: 1200px) {.tags-text {font-size: 1em;}}
 
     /*Box End*/
+    /*Footer Start*/
+    hr.break {
+  border: 2px solid #186770;
+  border-radius: 5px;
+  width: 80%;
+}
+
+
+
+.final-container {
+  flex: row;
+}
+
+.final-content {width: 75%;
+margin: auto;
+display: flex;
+
+}
+
+.recent-posts {display: flex;
+flex-direction: column;
+align-content: center;}
+
+.post-img {
+  width: 80px;
+height: 80px;
+}
+
+.post-img img {max-width: 100%;
+height: 100%;
+display: block;
+border-radius: 5% 5%;
+border: 0.5px solid black;
+}
+
+.post-img img:hover {opacity: 0.8;}
+
+
+.post {display: flex;
+align-content: center;
+padding: 0.5em 0em;}
+
+.post a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.post a:hover {color: #247F8B;}
+
+.post-text h4, p {margin: 0;
+font-size: 0.75em;
+padding-left: 0.5em;
+}
+
+.final-content {
+  width: 70%;
+margin: auto;
+display: flex;
+}
+
+.divider1, .divider2, .divider3 {
+  width:319.67px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 </style>
