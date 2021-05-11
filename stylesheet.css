@@ -9,8 +9,8 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #88B3B3;
-}
+    background-color: #E5F2F4;
+}88B3B3
 h2 {
     margin: 0px;
     font-family: georgia;
@@ -33,7 +33,7 @@ h3 {
     align-items: center;
     justify-content: space-evenly;
     overflow: hidden;
-    background-color: #D2D8DB;
+    background-color: #B1DDE3;
     font-family:  Arial;
 }
 
@@ -74,7 +74,7 @@ h3 {
     width: 100%;}
 
   .title-container {
-    background-image: url("https://fastly.syfy.com/sites/syfy/files/styles/1200x680/public/wire/legacy/computers-text-matrix-computer-code.jpg?offset-x=0");
+    background-image: url("https://www2.lunapic.com/do-not-link-here-use-hosting-instead/16207632113667081?1235128813");
     height: 440px;
     width: auto;
     background-size: cover;
@@ -93,7 +93,7 @@ h3 {
     box-shadow: 2px 2px 2px #606869;
     margin: 2em 2em;
     border-radius: 3% 3%;
-    background-color: #AAC5C8;
+    background-color: #B3D3D7;
     /* test below */
     display: flex;
     flex-direction: column;
@@ -288,6 +288,31 @@ display: flex;
 .divider1, .divider2, .divider3 {
   width:319.67px;
 }
+
+h3.center{
+  text-align: center;
+}
+
+.filler{
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+footer {
+  height: 20px;
+}
+
+
+a, p {
+  display: inline-block;
+}
+
+.right {
+  text-align: right;
+}
+
+
 
 
 
