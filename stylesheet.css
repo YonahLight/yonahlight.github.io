@@ -246,6 +246,7 @@ display: flex;
 
 }
 
+
 .recent-posts {display: flex;
 flex-direction: column;
 align-content: center;}
@@ -304,7 +305,7 @@ h3.center{
 
 .filler{
   font-size: 15px;
-  font-family: sans-serif;
+  font-family: cursive;
   text-align: center;
 }
 
