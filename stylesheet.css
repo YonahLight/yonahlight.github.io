@@ -306,7 +306,6 @@ h3.center{
 .filler{
   font-size: 15px;
   font-family: cursive;
-  text-align: center;
 }
 
 footer {
@@ -330,6 +329,13 @@ a, p {
 article {
   font-size: 1.25em;
   padding-top: 20px;
+}
+.center {
+  text-align: center;
+}
+
+.cursive{
+    font-family: Lucida Console;
 }
 
 </style>
